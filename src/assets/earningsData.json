@@ -1,0 +1,52 @@
+[
+  {
+    "stockSymbol": "MCI",
+    "company": "Barings Corporate Investors",
+    "epsEstimate": 4.13,
+    "actualEps": 47.42,
+    "suprise": true,
+    "epsYearAgo": 7.71,
+    "changeFromLast": 5.5,
+    "fiscalPeriod": "2020 FY"
+  },
+  {
+    "stockSymbol": "TAC",
+    "company": "TransAlta Corporation",
+    "epsEstimate": 12.43,
+    "actualEps": 40.53,
+    "suprise": false,
+    "epsYearAgo": 9.98,
+    "changeFromLast": 3.53,
+    "fiscalPeriod": "2020 FY"
+  },
+  {
+    "stockSymbol": "NEWS",
+    "company": "NewStar Financial, Inc.",
+    "epsEstimate": 5.94,
+    "actualEps": 41.14,
+    "suprise": false,
+    "epsYearAgo": 2.45,
+    "changeFromLast": 2.63,
+    "fiscalPeriod": "2020 FY"
+  },
+  {
+    "stockSymbol": "IPI",
+    "company": "Intrepid Potash, Inc",
+    "epsEstimate": 3.62,
+    "actualEps": 21.42,
+    "suprise": false,
+    "epsYearAgo": 4.58,
+    "changeFromLast": 7.77,
+    "fiscalPeriod": "2020 FY"
+  },
+  {
+    "stockSymbol": "APVO",
+    "company": "Aptevo Therapeutics Inc.",
+    "epsEstimate": 4.3,
+    "actualEps": 26.96,
+    "suprise": true,
+    "epsYearAgo": 8.13,
+    "changeFromLast": 0.11,
+    "fiscalPeriod": "2020 FY"
+  }
+]

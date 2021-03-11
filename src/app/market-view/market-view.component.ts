@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { IstockMarketData } from '@shared/interfaces';
+import {
+  IstockDividenData,
+  IstockEarningsData,
+  IstockIndustryData,
+  IstockMarketData,
+  IstockIndustiresData,
+} from '@shared/interfaces';
 import { MarketViewService } from './market-view.service';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,7 +16,10 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 })
 export class MarketViewComponent implements OnInit {
   marketData: IstockMarketData[] = [];
-  industryData: any[] = [];
+  industryData: IstockIndustryData[] = [];
+  dividenData: IstockDividenData[] = [];
+  earningsData: IstockEarningsData[] = [];
+  sectorData: IstockIndustiresData[] = [];
   isLoading: boolean = false;
   starIcon = faStar;
 
@@ -19,6 +28,9 @@ export class MarketViewComponent implements OnInit {
   ngOnInit(): void {
     this.getMarketOverviewData();
     this.getMarketIndustryOverviewData();
+    this.getDividensOverviewData();
+    this.getEarningsData();
+    this.getSectorData();
   }
 
   getMarketOverviewData() {
@@ -31,6 +43,24 @@ export class MarketViewComponent implements OnInit {
   getMarketIndustryOverviewData() {
     this.marketViewService.getStockIndustryOverview().subscribe((response) => {
       this.industryData = response;
+    });
+  }
+
+  getDividensOverviewData() {
+    this.marketViewService.getStockDividenData().subscribe((response) => {
+      this.dividenData = response;
+    });
+  }
+
+  getEarningsData() {
+    this.marketViewService.getStockEarningsData().subscribe((response) => {
+      this.earningsData = response;
+    });
+  }
+
+  getSectorData() {
+    this.marketViewService.getSectorData().subscribe((response) => {
+      this.sectorData = response;
     });
   }
 }

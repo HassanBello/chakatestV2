@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Radio And Television Broadcasting And Communications Equipment",
+    "profit": 2.14,
+    "isProfit": true,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615495238/jonathan-velasquez-c1ZN57GfDB0-unsplash_rq9v5k.jpg"
+  },
+  {
+    "name": "Major Pharmaceuticals",
+    "profit": 15.34,
+    "isProfit": false,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615495246/national-cancer-institute-89rul39ox2I-unsplash_ejbm3g.jpg"
+  },
+  {
+    "name": "Energy",
+    "profit": 21.94,
+    "isProfit": false,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615375129/karsten-wurth-0w-uTa0Xz7w-unsplash_a8fzl5.jpg"
+  },
+  {
+    "name": "Entertainment",
+    "profit": 37.44,
+    "isProfit": false,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615494740/matthew-kalapuch-sqJ4tLBiurw-unsplash_sdx1bf.jpg"
+  },
+  {
+    "name": "Technology",
+    "profit": 96.1,
+    "isProfit": false,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615494755/markus-spiske-iar-afB0QQw-unsplash_hbyys5.jpg"
+  },
+  {
+    "name": "Materials",
+    "profit": 4.04,
+    "isProfit": false,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615494752/guillaume-de-germain-CVhuv-hhQD8-unsplash_wyimoj.jpg"
+  },
+  {
+    "name": "Auto Parts:O.E.M.",
+    "profit": 6.44,
+    "isProfit": true,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615495280/ryan-hafey-i5n6WHtvQ4c-unsplash_efibai.jpg"
+  },
+  {
+    "name": "Major Banks",
+    "profit": 18.89,
+    "isProfit": true,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615494737/ales-nesetril-ex_p4AaBxbs-unsplash_renjsv.jpg"
+  },
+  {
+    "name": "Computer Software: Prepackaged Software",
+    "profit": 46.38,
+    "isProfit": false,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615495312/luca-bravo-XJXWbfSo2f0-unsplash_yngnmc.jpg"
+  },
+  {
+    "name": "Savings Institutions",
+    "profit": 81.27,
+    "isProfit": false,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615494750/fringer-cat-hddmXlPaFGo-unsplash_mtxuvb.jpg"
+  },
+  {
+    "name": "Auto Manufacturing",
+    "profit": 3.02,
+    "isProfit": false,
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615494742/samuele-errico-piccarini-FMbWFDiVRPs-unsplash_u5rhqy.jpg"
+  }
+]

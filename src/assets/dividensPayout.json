@@ -1,0 +1,22 @@
+[
+  {
+    "stockSymbol": "PN",
+    "amount": 1205
+  },
+  {
+    "stockSymbol": "TESS",
+    "amount": 199
+  },
+  {
+    "stockSymbol": "VVUS",
+    "amount": 360
+  },
+  {
+    "stockSymbol": "HLF",
+    "amount": 286
+  },
+  {
+    "stockSymbol": "LXRX",
+    "amount": 1485
+  }
+]
