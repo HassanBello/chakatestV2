@@ -1,0 +1,93 @@
+.small-header {
+  letter-spacing: 6px;
+  font-size: 9px;
+  font-weight: 400;
+}
+
+.large-header {
+  font-weight: 700;
+}
+
+.stockMiniCard {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background-color: rgba(248, 248, 248, 1);
+  max-width: 150px;
+  margin: 0px 2.5px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+  .stockMiniCard {
+    min-width: 150px;
+  }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: portrait) {
+  .stockMiniCard {
+    min-width: 150px;
+  }
+}
+
+.stockScroller {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  // -webkit-overflow-scrolling: auto;
+  scrollbar-width: thin;
+  scrollbar-color: light;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.stockScroller::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+  display: none;
+}
+
+.stockScroller::-webkit-scrollbar-track {
+  background: inherit;
+  border-radius: 6px;
+}
+
+.stockScroller::-webkit-scrollbar-thumb {
+  background-color: #cdcdcd;
+  border-radius: 6px;
+  border: 3px solid inherit;
+}
+
+.stockName {
+  font-size: 0.6rem;
+  white-space: normal;
+  height: 63px;
+}
+
+.stockCardFooter {
+  text-align: right;
+  margin-top: 45%;
+}
+
+.imgCard {
+  img {
+    height: 120px;
+    width: 100%;
+    border-radius: 2.5px;
+  }
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}

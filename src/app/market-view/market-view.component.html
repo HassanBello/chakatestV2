@@ -1,0 +1,64 @@
+<div class="container-fluid">
+  <div class="container">
+    <div class="row mb-2">
+      <div class="col-md-12">
+        <small class="small-header">MARKET VIEW</small>
+        <h3 class="large-header">Today's Marketing Briefing.</h3>
+      </div>
+    </div>
+    <!-- Stock Overview -->
+    <div class="row mb-3">
+      <div class="stockScroller">
+        <div class="stockMiniCard col-md-3 col-sm-6 scroll-card p-2" *ngFor="let item of marketData">
+          <p class="mb-0 font-weight-bold">{{ item.symbol }}</p>
+          <p class="stockName mb-0">{{ item.name }}</p>
+          <div class="p-2"></div>
+          <div class="stockCardFooter">
+            <p class="mb-0 font-weight-bold">{{ item.price }}</p>
+            <p style="font-size: 0.8rem" [ngStyle]="{ color: item.isProfit === true ? 'green' : 'red' }">
+              <span *ngIf="!item.isProfit">-</span>
+              <span *ngIf="item.isProfit">+</span>
+              {{ item.profit }}%
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="p-1 col-md-12"></div>
+      <small style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Active Stocks last updated Dec 29 2020.</small>
+    </div>
+    <!--End Stock Overview -->
+    <!-- Sector Highlights -->
+    <div class="row">
+      <div class="col-md-8 pt-3 border-top pb-3 border-bottom">
+        <h5 class="large-header mb-0">Sector Highlights</h5>
+        <small style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Dec 29 2020, 09:10:28pm</small>
+        <div class="row">
+          <div class="imgCard mb-2 col-md-6" *ngFor="let item of industryData">
+            <img class="img-fluid" [src]="item.imgUrl" alt="Snow" />
+            <div class="top-left ml-2">{{ item.industry }}</div>
+            <div class="bottom-right">
+              <div [ngClass]="item.isProfit === true ? 'badge-success' : 'badge-danger'" class="badge mr-2">
+                <span *ngIf="!item.isProfit">-</span>
+                <span *ngIf="item.isProfit">+</span> {{ item.profit }}%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-3 shadow-sm">
+          <h5 class="large-header">My Watchlist <fa-icon [icon]="starIcon"></fa-icon></h5>
+          <p style="font-size: 0.85rem">
+            Your Watchlist is empty. Build your watchlist by starring(<fa-icon
+              style="color: blue"
+              [icon]="starIcon"
+            ></fa-icon
+            >) the blocks you want to follow
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Sector Highlights -->
+    <div class="row"></div>
+  </div>
+</div>

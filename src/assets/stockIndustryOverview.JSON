@@ -1,0 +1,14 @@
+[
+  {
+    "industry": "Power Generation",
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615375129/karsten-wurth-0w-uTa0Xz7w-unsplash_a8fzl5.jpg",
+    "profit": 11.25,
+    "isProfit": false
+  },
+  {
+    "industry": "Telecommunications Equipment",
+    "imgUrl": "https://res.cloudinary.com/dfqkwnen0/image/upload/v1615375224/mustafa-yasser--1nu01VjcNE-unsplash_b4hpo9.jpg",
+    "profit": 1.54,
+    "isProfit": true
+  }
+]
