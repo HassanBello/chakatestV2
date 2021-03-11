@@ -11,7 +11,9 @@ export class NewsViewComponent implements OnInit {
 
   constructor(private newsService: NewsService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.getStockNews();
+  }
 
   getStockNews() {
     this.newsService.getStockNews().subscribe((response) => {
