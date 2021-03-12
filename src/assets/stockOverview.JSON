@@ -1,72 +1,71 @@
-[
-  {
-    "symbol": "EQS",
-    "name": "Equus Total Return, Inc.",
-    "price": 209,
-    "profit": 75.01,
-    "isProfit": true
-  },
-  {
-    "symbol": "IRDMB",
-    "name": "Iridium Communications Inc",
-    "price": 247,
-    "profit": 24.43,
-    "isProfit": true
-  },
-  {
-    "symbol": "RGLD",
-    "name": "Royal Gold, Inc.",
-    "price": 97,
-    "profit": 26.01,
-    "isProfit": false
-  },
-  {
-    "symbol": "ALBO",
-    "name": "Albireo Pharma, Inc.",
-    "price": 215,
-    "profit": 99.13,
-    "isProfit": true
-  },
-  {
-    "symbol": "GOOD",
-    "name": "Gladstone Commercial Corporation",
-    "price": 32,
-    "profit": 74.37,
-    "isProfit": true
-  },
-  {
-    "symbol": "ARI^A",
-    "name": "Apollo Commercial Real Estate Finance",
-    "price": 23,
-    "profit": 18.48,
-    "isProfit": false
-  },
-  {
-    "symbol": "HCC",
-    "name": "Warrior Met Coal, Inc.",
-    "price": 119,
-    "profit": 90.95,
-    "isProfit": true
-  },
-  {
-    "symbol": "HZO",
-    "name": "MarineMax, Inc.",
-    "price": 400,
-    "profit": 27.56,
-    "isProfit": false
-  },
-  {
-    "symbol": "DPG",
-    "name": "Duff & Phelps Global Utility Income Fund Inc.",
-    "price": 197,
-    "profit": 86.86,
-    "isProfit": false
-  },
-  {
-    "symbol": "AKP",
-    "name": "Alliance California Municipal Income Fund Inc",
-    "price": 221,
-    "profit": 94.48,
-    "isProfit": true
-  }
+[{
+  "symbol": "EQS",
+  "name": "Equus Total Return, Inc.",
+  "price": 209,
+  "profit": 75.01,
+  "isProfit": true
+},
+{
+  "symbol": "IRDMB",
+  "name": "Iridium Communications Inc",
+  "price": 247,
+  "profit": 24.43,
+  "isProfit": true
+},
+{
+  "symbol": "RGLD",
+  "name": "Royal Gold, Inc.",
+  "price": 97,
+  "profit": 26.01,
+  "isProfit": false
+},
+{
+  "symbol": "ALBO",
+  "name": "Albireo Pharma, Inc.",
+  "price": 215,
+  "profit": 99.13,
+  "isProfit": true
+},
+{
+  "symbol": "GOOD",
+  "name": "Gladstone Commercial Corporation",
+  "price": 32,
+  "profit": 74.37,
+  "isProfit": true
+},
+{
+  "symbol": "ARI^A",
+  "name": "Apollo Commercial Real Estate Finance",
+  "price": 23,
+  "profit": 18.48,
+  "isProfit": false
+},
+{
+  "symbol": "HCC",
+  "name": "Warrior Met Coal, Inc.",
+  "price": 119,
+  "profit": 90.95,
+  "isProfit": true
+},
+{
+  "symbol": "HZO",
+  "name": "MarineMax, Inc.",
+  "price": 400,
+  "profit": 27.56,
+  "isProfit": false
+},
+{
+  "symbol": "DPG",
+  "name": "Duff & Phelps Global Utility Income Fund Inc.",
+  "price": 197,
+  "profit": 86.86,
+  "isProfit": false
+},
+{
+  "symbol": "AKP",
+  "name": "Alliance California Municipal Income Fund Inc",
+  "price": 221,
+  "profit": 94.48,
+  "isProfit": true
+}
 ]

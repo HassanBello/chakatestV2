@@ -1,50 +1,49 @@
-[
-  {
-    "news_url": "https://www.globenewswire.com/news-release/2021/02/22/2179456/0/en/Abeona-Therapeutics-to-Present-at-the-10th-Annual-SVB-Leerink-Global-Healthcare-Conference.html",
-    "image_url": "https://cdn.snapi.dev/images/v1/4/j/conf8.jpg",
-    "title": "Abeona Therapeutics to Present at the 10th Annual SVB Leerink Global Healthcare Conference",
-    "text": "NEW YORK and CLEVELAND, Feb. 22, 2021 (GLOBE NEWSWIRE) -- Abeona Therapeutics Inc. (Nasdaq: ABEO), a fully-integrated leader in gene and cell therapy, today announced that the company will present at the 10th Annual SVB Leerink Global Healthcare Conference on Wednesday, February 24, 2021 at 11:20 am EST.",
-    "source_name": "GlobeNewsWire",
-    "date": "Mon, 22 Feb 2021 07:30:00 -0500",
-    "topics": ["Conference"],
-    "sentiment": "Neutral",
-    "type": "Article",
-    "tickers": ["ABEO"]
-  },
-  {
-    "news_url": "https://www.cnbc.com/2021/03/11/apple-loses-billions-in-market-cap-but-traders-split-on-what-to-do.html",
-    "image_url": "https://cdn.snapi.dev/images/v1/e/o/106006890-1572527193056tim-719557.jpg",
-    "title": "Apple just lost a Disney's worth in market cap, but two traders are split on whether the stock is a buy",
-    "text": "Apple's fall from its January peak puts the stock in a precarious position for investors, one investor warns.",
-    "source_name": "CNBC",
-    "date": "Thu, 11 Mar 2021 11:27:28 -0500",
-    "topics": [],
-    "sentiment": "Neutral",
-    "type": "Article",
-    "tickers": ["AAPL"]
-  },
-  {
-    "news_url": "https://www.reuters.com/article/us-amazon-italy-strike/amazon-workers-in-italy-call-first-company-wide-strike-for-march-22-idUSKBN2B31MI",
-    "image_url": "https://cdn.snapi.dev/images/v1/i/y/m02d20210311t2i1554528098w940fhfwllplsqrlynxmpeh2a0yk-718677.jpg",
-    "title": "Amazon workers in Italy call first company-wide strike for March 22",
-    "text": "Amazon's workers in Italy will go on a 24-hour strike on March 22 after negotiations with the U.S. online giant over working conditions broke down, trade unions said on Thursday.",
-    "source_name": "Reuters",
-    "date": "Thu, 11 Mar 2021 07:30:00 -0500",
-    "topics": [],
-    "sentiment": "Negative",
-    "type": "Article",
-    "tickers": ["AMZN"]
-  },
-  {
-    "news_url": "https://www.cnbc.com/2021/03/11/roblox-shares-surge-after-cathie-woods-fund-buys-on-first-trading-day.html",
-    "image_url": "https://cdn.snapi.dev/images/v1/b/1/106851959-1615391544622rblx-ob-photo-20210310-press-1-jpg-718794.jpg",
-    "title": "Roblox shares surge after Cathie Wood's fund buys on first trading day",
-    "text": "The Ark Next Generation Internet ETF added more than 500,000 shares of the stock, which accounted for about 0.5% of the fund's portfolio.",
-    "source_name": "CNBC",
-    "date": "Thu, 11 Mar 2021 08:06:13 -0500",
-    "topics": [],
-    "sentiment": "Positive",
-    "type": "Article",
-    "tickers": ["RBLX"]
-  }
+[{
+  "news_url": "https://www.globenewswire.com/news-release/2021/02/22/2179456/0/en/Abeona-Therapeutics-to-Present-at-the-10th-Annual-SVB-Leerink-Global-Healthcare-Conference.html",
+  "image_url": "https://cdn.snapi.dev/images/v1/4/j/conf8.jpg",
+  "title": "Abeona Therapeutics to Present at the 10th Annual SVB Leerink Global Healthcare Conference",
+  "text": "NEW YORK and CLEVELAND, Feb. 22, 2021 (GLOBE NEWSWIRE) -- Abeona Therapeutics Inc. (Nasdaq: ABEO), a fully-integrated leader in gene and cell therapy, today announced that the company will present at the 10th Annual SVB Leerink Global Healthcare Conference on Wednesday, February 24, 2021 at 11:20 am EST.",
+  "source_name": "GlobeNewsWire",
+  "date": "Mon, 22 Feb 2021 07:30:00 -0500",
+  "topics": ["Conference"],
+  "sentiment": "Neutral",
+  "type": "Article",
+  "tickers": ["ABEO"]
+},
+{
+  "news_url": "https://www.cnbc.com/2021/03/11/apple-loses-billions-in-market-cap-but-traders-split-on-what-to-do.html",
+  "image_url": "https://cdn.snapi.dev/images/v1/e/o/106006890-1572527193056tim-719557.jpg",
+  "title": "Apple just lost a Disney's worth in market cap, but two traders are split on whether the stock is a buy",
+  "text": "Apple's fall from its January peak puts the stock in a precarious position for investors, one investor warns.",
+  "source_name": "CNBC",
+  "date": "Thu, 11 Mar 2021 11:27:28 -0500",
+  "topics": [],
+  "sentiment": "Neutral",
+  "type": "Article",
+  "tickers": ["AAPL"]
+},
+{
+  "news_url": "https://www.reuters.com/article/us-amazon-italy-strike/amazon-workers-in-italy-call-first-company-wide-strike-for-march-22-idUSKBN2B31MI",
+  "image_url": "https://cdn.snapi.dev/images/v1/i/y/m02d20210311t2i1554528098w940fhfwllplsqrlynxmpeh2a0yk-718677.jpg",
+  "title": "Amazon workers in Italy call first company-wide strike for March 22",
+  "text": "Amazon's workers in Italy will go on a 24-hour strike on March 22 after negotiations with the U.S. online giant over working conditions broke down, trade unions said on Thursday.",
+  "source_name": "Reuters",
+  "date": "Thu, 11 Mar 2021 07:30:00 -0500",
+  "topics": [],
+  "sentiment": "Negative",
+  "type": "Article",
+  "tickers": ["AMZN"]
+},
+{
+  "news_url": "https://www.cnbc.com/2021/03/11/roblox-shares-surge-after-cathie-woods-fund-buys-on-first-trading-day.html",
+  "image_url": "https://cdn.snapi.dev/images/v1/b/1/106851959-1615391544622rblx-ob-photo-20210310-press-1-jpg-718794.jpg",
+  "title": "Roblox shares surge after Cathie Wood's fund buys on first trading day",
+  "text": "The Ark Next Generation Internet ETF added more than 500,000 shares of the stock, which accounted for about 0.5% of the fund's portfolio.",
+  "source_name": "CNBC",
+  "date": "Thu, 11 Mar 2021 08:06:13 -0500",
+  "topics": [],
+  "sentiment": "Positive",
+  "type": "Article",
+  "tickers": ["RBLX"]
+}
 ]
