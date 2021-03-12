@@ -1,5 +1,5 @@
-<div class="container-fluid">
-  <div class="container">
+<div class="container-fluid mt-4 mb-4">
+  <div *ngIf="isLoading === false" wmAnimate="fadeInUp" speed="fast" once class="container">
     <div class="row mb-2">
       <div class="col-md-12">
         <small class="small-header">MARKET VIEW</small>
@@ -85,44 +85,48 @@
     <div class="row">
       <div class="col-md-12 pt-3 pb-3">
         <h5 class="large-header">Ex-Dividends</h5>
-        <table style="width: 100%">
-          <thead class="border-bottom">
-            <th style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Symbol</th>
-            <th style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Company</th>
-            <th style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Fiscal Period</th>
-            <th style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Consensus Estimated EPS</th>
-            <th style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Actual EPS</th>
-            <th style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Suprise</th>
-            <th style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">EPS, Year Ago</th>
-            <th style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">% Change From Last Year</th>
-          </thead>
-          <tbody>
-            <tr class="mb-1 mt-1" *ngFor="let item of earningsData">
-              <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
-                {{ item.stockSymbol }}
-              </td>
-              <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
-                {{ item.company }}
-              </td>
-              <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
-                {{ item.fiscalPeriod }}
-              </td>
-              <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
-                {{ item.epsEstimate | currency }}
-              </td>
-              <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
-                {{ item.actualEps | currency }}
-              </td>
-              <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
-                {{ item.suprise === true ? 'Yes' : 'No' }}
-              </td>
-              <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
-                {{ item.epsYearAgo | currency }}
-              </td>
-              <td style="font-weight: 400; text-align: center; font-size: 0.85rem">{{ item.changeFromLast }}%</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-responsive">
+          <table class="table table-lg" style="width: 100%">
+            <thead class="border-top-0">
+              <tr>
+                <th scope="col" style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Symbol</th>
+                <th scope="col" style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Company</th>
+                <th scope="col" style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Fiscal Period</th>
+                <th scope="col" style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Consensus Estimated EPS</th>
+                <th scope="col" style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Actual EPS</th>
+                <th scope="col" style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Suprise</th>
+                <th scope="col" style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">EPS, Year Ago</th>
+                <th scope="col" style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">% Change From Last Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="mb-1 mt-1" *ngFor="let item of earningsData">
+                <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
+                  {{ item.stockSymbol }}
+                </td>
+                <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
+                  {{ item.company }}
+                </td>
+                <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
+                  {{ item.fiscalPeriod }}
+                </td>
+                <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
+                  {{ item.epsEstimate | currency }}
+                </td>
+                <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
+                  {{ item.actualEps | currency }}
+                </td>
+                <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
+                  {{ item.suprise === true ? 'Yes' : 'No' }}
+                </td>
+                <td style="font-weight: 400; text-align: center; font-size: 0.85rem">
+                  {{ item.epsYearAgo | currency }}
+                </td>
+                <td style="font-weight: 400; text-align: center; font-size: 0.85rem">{{ item.changeFromLast }}%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
     <!-- Earnings Ends -->
@@ -144,5 +148,13 @@
         </div>
       </div>
     </div>
+  </div>
+  <div *ngIf="isLoading === true" class="container" wmAnimate="fadeOut" speed="fast" once>
+    <div class="p-5"></div>
+    <div class="text-center col-md-12">
+      <i class="fas fa-circle-notch fa-spin fa-3x"></i>
+      <p>Please Wait...</p>
+    </div>
+    <div class="p-5"></div>
   </div>
 </div>

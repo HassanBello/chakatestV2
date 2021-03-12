@@ -5,9 +5,9 @@ import { NewsViewComponent } from './news-view/news-view.component';
 
 const routes: Routes = [
   // Fallback when no prior route is matched
-  { path: '**', redirectTo: '/market-view', pathMatch: 'full' },
-  { path: 'market-view', component: MarketViewComponent, data: { title: 'Home' } },
-  { path: 'news', component: NewsViewComponent, data: { title: 'New View' } },
+  { path: '', redirectTo: '/market', pathMatch: 'full' },
+  { path: 'market', component: MarketViewComponent, data: { title: 'Markets' } },
+  { path: 'news', component: NewsViewComponent, data: { title: 'News' } },
 ];
 
 @NgModule({

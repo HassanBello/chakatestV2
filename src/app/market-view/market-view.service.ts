@@ -20,11 +20,11 @@ export class MarketViewService extends BaseService<any> {
   }
 
   getStockMarketOverview(): Observable<[IstockMarketData]> {
-    return this.http.get('assets/stockOverview.JSON').pipe(map((body: any) => body));
+    return this.http.get('assets/stockOverview.json').pipe(map((body: any) => body));
   }
 
   getStockIndustryOverview(): Observable<[IstockIndustryData]> {
-    return this.http.get('assets/stockIndustryOverview.JSON').pipe(map((body: any) => body));
+    return this.http.get('assets/stockIndustryOverview.json').pipe(map((body: any) => body));
   }
 
   getStockDividenData(): Observable<[IstockDividenData]> {
@@ -36,6 +36,6 @@ export class MarketViewService extends BaseService<any> {
   }
 
   getSectorData(): Observable<[IstockIndustiresData]> {
-    return this.http.get('assets/sectorData.JSON').pipe(map((body: any) => body));
+    return this.http.get('assets/sectorData.json').pipe(map((body: any) => body));
   }
 }

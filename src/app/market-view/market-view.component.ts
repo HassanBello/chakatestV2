@@ -20,23 +20,23 @@ export class MarketViewComponent implements OnInit {
   dividenData: IstockDividenData[] = [];
   earningsData: IstockEarningsData[] = [];
   sectorData: IstockIndustiresData[] = [];
-  isLoading: boolean = false;
+  isLoading: boolean;
   starIcon = faStar;
 
-  constructor(private marketViewService: MarketViewService) {}
+  constructor(private marketViewService: MarketViewService) { }
 
   ngOnInit(): void {
+    this.isLoading = true;
     this.getMarketOverviewData();
     this.getMarketIndustryOverviewData();
     this.getDividensOverviewData();
-    this.getEarningsData();
     this.getSectorData();
+    setTimeout(() => { this.getEarningsData(); }, 1500);
   }
 
   getMarketOverviewData() {
     this.marketViewService.getStockMarketOverview().subscribe((response) => {
       this.marketData = response;
-      this.isLoading = false;
     });
   }
 
@@ -55,6 +55,7 @@ export class MarketViewComponent implements OnInit {
   getEarningsData() {
     this.marketViewService.getStockEarningsData().subscribe((response) => {
       this.earningsData = response;
+      this.isLoading = false
     });
   }
 
@@ -63,4 +64,5 @@ export class MarketViewComponent implements OnInit {
       this.sectorData = response;
     });
   }
+
 }

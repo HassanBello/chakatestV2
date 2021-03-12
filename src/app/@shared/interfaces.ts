@@ -35,3 +35,16 @@ export interface IstockIndustiresData {
   isProfit: boolean;
   imgUrl: string;
 }
+
+export interface IstockNewsData {
+  news_url: string;
+  image_url: string;
+  title: string;
+  text: string;
+  source_name: string;
+  date: Date;
+  topics: string[];
+  sentiment: string;
+  type: string;
+  tickers: string[];
+}

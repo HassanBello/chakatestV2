@@ -11,12 +11,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { CommonModule } from '@angular/common';
 import { MarketViewModule } from './market-view/market-view.module';
 import { NewsViewModule } from './news-view/news-view.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   imports: [
     BrowserModule,
     CommonModule,
     FormsModule,
+    BrowserAnimationsModule,
     HttpClientModule,
     MarketViewModule,
     NewsViewModule,
