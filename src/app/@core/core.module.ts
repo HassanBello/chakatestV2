@@ -1,10 +1,9 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
-import { RouteReuseStrategy, RouterModule } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
-import { RouteReusableStrategy } from './route-reusable-strategy';
 import { ErrorHandlerInterceptor } from './http/error-handler.interceptor';
 
 @NgModule({
@@ -14,10 +13,6 @@ import { ErrorHandlerInterceptor } from './http/error-handler.interceptor';
       provide: HTTP_INTERCEPTORS,
       useClass: ErrorHandlerInterceptor,
       multi: true,
-    },
-    {
-      provide: RouteReuseStrategy,
-      useClass: RouteReusableStrategy,
     },
   ],
 })

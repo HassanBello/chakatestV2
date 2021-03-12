@@ -28,9 +28,9 @@ export class MarketViewComponent implements OnInit {
   ngOnInit(): void {
     this.isLoading = true;
     this.getMarketOverviewData();
-    this.getMarketIndustryOverviewData();
-    this.getDividensOverviewData();
-    this.getSectorData();
+    setTimeout(() => { this.getMarketIndustryOverviewData(); }, 1000);
+    setTimeout(() => { this.getDividensOverviewData(); }, 1000);
+    setTimeout(() => { this.getSectorData(); }, 1000);
     setTimeout(() => { this.getEarningsData(); }, 1500);
   }
 
