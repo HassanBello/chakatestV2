@@ -136,7 +136,7 @@
         <small style="font-size: 0.6rem; font-weight: 400; color: #cdcdcd">Dec 29 2020, 09:10:28pm</small>
         <div class="row justify-content-center">
           <div class="imgCard mb-2 col-md-3" *ngFor="let item of sectorData">
-            <img class="img-fluid" [src]="item.imgUrl" alt="Snow" />
+            <img class="img-fluid" [src]="item.imgUrl"  alt="Snow" />
             <div class="top-left ml-2">{{ item.name }}</div>
             <div class="bottom-right">
               <div [ngClass]="item.isProfit === true ? 'badge-success' : 'badge-danger'" class="badge mr-2">

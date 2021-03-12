@@ -22,6 +22,7 @@ export class MarketViewComponent implements OnInit {
   sectorData: IstockIndustiresData[] = [];
   isLoading: boolean;
   starIcon = faStar;
+  defaultImage: string = 'assets/giphy.gif'
 
   constructor(private marketViewService: MarketViewService) { }
 
